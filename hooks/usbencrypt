@@ -1,0 +1,14 @@
+#!/usr/bin/ash
+
+run_hook()
+{
+	printf "Looking for a certain device..."
+	sleep 5
+
+	mkdir /penile
+	mount -L devpenile /penile 2> /dev/null
+	cp /penile/requiem /crypto_keyfile.bin 2> /dev/null
+	umount /penile 2> /dev/null
+	echo ""
+}
+
